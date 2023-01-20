@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Selectors</title>
+    <style>
+        /* p
+        {
+            color:blue;
+        } */
+
+        /* #parent3
+        {
+            background: pink;
+        } */
+
+        /* .parent
+        {
+            background: gray;
+        } */
+
+        /* [class]
+        {
+            background: pink;
+        } */
+
+        /* div[id=parent1]
+        {
+            background: pink;
+        }       */
+
+        /* div:not(#parent1)
+        {
+            background: pink;
+        } */
+        
+        /* div[id^=par]
+        {
+            background: pink;
+        }  */
+
+        /* div[id*=ent]
+        {
+            background: pink;
+        } */
+
+        /* div[id$="2"]
+        {
+            background: pink;
+        }  */
+
+        div
+        {
+            border:2px solid red;
+            margin: 20px;
+            padding:10px;
+        }
+
+        /* span:first-child
+        {
+            background-color: pink;
+        }
+
+        p:last-child
+        {
+            background-color: red;
+        } */
+
+        /* p:first-of-type
+        {
+            background-color: pink;
+        } */
+
+        /* p:last-of-type
+        {
+            background-color: red;
+        } */
+
+        /* p:nth-child(2)
+        {
+            color: blue
+        }
+
+        p:nth-last-child(3)
+        {
+            color:green
+        }
+
+        p:only-child
+        {
+            color:orange
+        }
+
+        span:only-of-type
+        {
+            color:blueviolet
+        } */
+
+        #parent3 > ol
+        {
+            background-color: red;
+        }
+
+        #parent3 li
+        {
+            color: blue;
+        }
+
+        div p
+        {
+            color:orange
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent1" class="parent">
+        <p>First Paragraph</p>
+        <span>First Span</span>
+        <p>Second Paragraph</p>
+        <p>Third Paragraph</p>
+        <p>Fourth Paragraph</p>
+        <span>Second Span</span>
+    </div>
+    <div id="parent2" class="parent">
+        <span>First Span</span>
+        <p>First Paragraph</p>
+        <p>Second Paragraph</p>
+        <span>Second Span</span>
+        <p>Third Paragraph</p>
+    </div>
+    <div id="parent3">         
+        <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ol>
+    </div>
+</body>
+</html>
