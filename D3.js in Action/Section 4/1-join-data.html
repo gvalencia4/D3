@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Join Data</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      .changeColor
+      {
+        background: deeppink;
+        color: indigo;
+        width: 50;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <svg width="600" height="600"></svg> -->
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <script>
+      var myData = [20, 25, 30, 35, 40];
+      d3.selectAll("p").data(myData).text( function(d, i){
+        return d;
+      }).style("font-size", function(d) {
+        return d + "px";
+      }).classed("changeColor", function(d) {
+        return d>30;
+      });
+    </script>
+  </body>
+</html>
