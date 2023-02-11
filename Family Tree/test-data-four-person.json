@@ -1,23 +1,27 @@
 [
   {
+    "id":"1",
     "child": "John",
     "parent": "",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
     "spouse": "Isabella"
   },
   {
+    "id":"2",
     "child": "Kevin",
     "parent": "John",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
     "spouse": "Emma"
   },
   {
+    "id":"3",
     "child": "Ann",
     "parent": "John",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
     "spouse": "George"
   },
   {
+    "id":"4",
     "child": "Sarah",
     "parent": "Kevin",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
