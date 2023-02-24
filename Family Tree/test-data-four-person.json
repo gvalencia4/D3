@@ -1,7 +1,8 @@
 [
   {
     "id":"1",
-    "child": "John",
+    "firstName": "John",
+    "lastName": "Evans",
     "parentId": "",
     "parent": "",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
@@ -9,7 +10,8 @@
   },
   {
     "id":"2",
-    "child": "Kevin",
+    "firstName": "Kevin",
+    "lastName": "Evans",
     "parentId": "1",
     "parent": "John",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
@@ -17,7 +19,8 @@
   },
   {
     "id":"3",
-    "child": "Ann",
+    "firstName": "Ann",
+    "lastName": "Baker",
     "parentId": "1",
     "parent": "John",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
@@ -25,7 +28,8 @@
   },
   {
     "id":"4",
-    "child": "Sarah",
+    "firstName": "Sarah",
+    "lastName": "Evans",
     "parentId": "2",
     "parent": "Kevin",
     "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
