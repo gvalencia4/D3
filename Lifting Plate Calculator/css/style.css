@@ -4,6 +4,12 @@
   width: 10px;
 }
 
+#bar {
+  fill: gray;
+  stroke: black;
+  stroke-width: 1;
+}
+
 .five-pound-plate {
   fill: white;
   height: 30px;
