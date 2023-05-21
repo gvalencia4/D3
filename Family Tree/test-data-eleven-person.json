@@ -1,0 +1,73 @@
+[
+  {
+    "id":"1",
+    "child": "John",
+    "parent": "",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
+    "spouse": "Isabella"
+  },
+  {
+    "id":"2",
+    "child": "Kevin",
+    "parent": "John",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
+    "spouse": "Emma"
+  },
+  {
+    "id":"3",
+    "child": "Aaron",
+    "parent": "Kevin",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true"
+  },
+  {
+    "id":"4",
+    "child": "Hannah",
+    "parent": "Ann",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
+    "spouse": "William"
+  },
+  {
+    "id":"5",
+    "child": "Rose",
+    "parent": "Sarah",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true"
+  },
+  {
+    "id":"6",
+    "child": "Ann",
+    "parent": "John",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
+    "spouse": "George"
+  },
+  {
+    "id":"7",
+    "child": "Sarah",
+    "parent": "Kevin",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true",
+    "spouse": "James"
+  },
+  {
+    "id":"8",
+    "child": "Mark",
+    "parent": "Ann",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true"
+  },
+  {
+    "id":"9",
+    "child": "Angel",
+    "parent": "Sarah",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true"
+  },
+  {
+    "id":"10",
+    "child": "Tom",
+    "parent": "Hannah",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true"
+  },
+  {
+    "id":"11",
+    "child": "Amy",
+    "parent": "Hannah",
+    "icon": "https://github.com/Jan-23-Liftoff-KC/team-michael-group-repo/blob/main/src/main/resources/test-tree-data/person-icon.png?raw=true"
+  }
+]
