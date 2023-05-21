@@ -4,11 +4,25 @@
     <title>D3 Weight Plates</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/Users/gabrielvalencia/LiftOff/D3/Lifting Plate Calculator/css/style.css">
+    <!-- <link rel="icon" href="/D3/Lifting Plate Calculator/favicon.svg" />   -->
+    <link rel="icon" href="https://em-content.zobj.net/thumbs/240/apple/354/person-lifting-weights_1f3cb-fe0f.png">
+
 
   </head>
   <body>
-    <svg width="600" height="600">
-      <rect class="fivePound"></rect>
+    <svg id="plateLegend" width="1200" height="200" x="0" y="0">
+      <text x="10" y="50">5</text>
+      <rect class="plate five-pound-plate" x="30" y="30"></rect>
+      <text x="60" y="50">10</text>
+      <rect class="plate ten-pound-plate" x="80" y="25"></rect>
+      <text x="110" y="50">25</text>
+      <rect class="plate twenty-five-pound-plate" x="130" y="20"></rect>
+      <text x="160" y="50">35</text>
+      <rect class="plate thirty-five-pound-plate" x="180" y="15"></rect>
+      <text x="210" y="50">45</text>
+      <rect class="plate forty-five-pound-plate" x="230" y="10"></rect>
+      <text x="260" y="50">55</text>
+      <rect class="plate fifty-five-pound-plate" x="280" y="5"></rect>
     </svg>
 
     <!-- <button onclick="changeLook()">Update</button><br/><br/>
